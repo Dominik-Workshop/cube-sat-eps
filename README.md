@@ -28,6 +28,9 @@ The primary functions of this board are:
 > [!NOTE]
 > Certain features, such as current monitoring and switches on all power lines, were omitted due to time constraints.
 
+# Project Status ✅
+The `Electric Power System` has been fully tested, confirming that **all** its intended functions **operate as expected**. The development of both the PCB and the corresponding code is complete, and this specific board is no longer under active development. Notably, the `EPS` was successfully integrated into our `CubeSat` prototype, which was assembled and was operating as planned. It is important to remember that this is a **prototype** and, despite its successful operation, certain features were omitted due to time constraints, as noted earlier. Therefore, this `EPS` design is not yet ready for use in a final `CubeSat` intended for space deployment.
+
 # Schematic - top sheet
 <img align="center" src="images/schematics/schematic_top_sheet.png">
 
