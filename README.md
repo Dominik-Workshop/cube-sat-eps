@@ -1,10 +1,7 @@
 # EPS - Electric Power System
 
-## Used tools:
-<img align="center" height="64" src="images/logos/Altium_Designer.jpg">&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 
-<img align="center" height="64" src="images/logos/STM32CubeIDE.png">
+## Project Overview
 
-# Project Overview
 This project is part of a CubeSat prototype built as a group project at Wrocław University of Science and Technology. [GitLab Repository](https://gitlab.com/wust-satellite)
 <img align="center" src="images/photos/PCB_top-no-background.png">
 The primary functions of this board are:
@@ -28,21 +25,22 @@ The primary functions of this board are:
 > [!NOTE]
 > Certain features, such as current monitoring and switches on all power lines, were omitted due to time constraints.
 
-# Project Status ✅
+## Project Status ✅
+
 The `Electric Power System` has been fully tested, confirming that **all** its intended functions **operate as expected**. The development of both the PCB and the corresponding code is complete, and this specific board is no longer under active development. Notably, the `EPS` was successfully integrated into our `CubeSat` prototype, which was assembled and was operating as planned. It is important to remember that this is a **prototype** and, despite its successful operation, certain features were omitted due to time constraints, as noted earlier. Therefore, this `EPS` design is not yet ready for use in a final `CubeSat` intended for space deployment.
 
-# Schematic
+## Schematic
 <img align="center" src="images/schematics/schematic_top_sheet.png">
 
 The image above shows the top sheet of the `EPS` schematic. The complete schematic diagram, including all sheets, is available as a `PDF` file and can be accessed [here](/pcb/Project%20Outputs%20for%20EPS_board/EPS_full_schematic.pdf).
  
-
-# PCB
+## PCB
 <img align="center" src="images/renders/EPS_top_angle.png">
 <img align="center" src="images/renders/EPS_top.png">
 <img align="center" src="images/renders/EPS_bottom.png">
 
-# Project structure
+## Project Structure
+
 ```
 .
 ├── images
@@ -64,3 +62,8 @@ The image above shows the top sheet of the `EPS` schematic. The complete schemat
 │   └── ***STM32CubeIDE project***
 └── README.md
 ```
+
+## Used Tools
+
+- [Altium Designer](https://www.altium.com/altium-designer) - Schematic and PCB design
+- [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html) - STM32 firmware development (build/flash/debug)
